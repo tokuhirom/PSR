@@ -14,7 +14,7 @@ __END__
 
 =head1 NAME
 
-PSR - It's new $module
+PSR - Perl6 regular expressions
 
 =head1 SYNOPSIS
 
@@ -22,7 +22,9 @@ PSR - It's new $module
 
 =head1 DESCRIPTION
 
-PSR is ...
+PSR is utilities for Perl6 regular expressions.
+
+This module can convert Perl6 regular expressions to Perl5 regular expression.
 
 =head1 LICENSE
 

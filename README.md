@@ -1,6 +1,6 @@
 # NAME
 
-PSR - It's new $module
+PSR - Perl6 regular expressions
 
 # SYNOPSIS
 
@@ -8,7 +8,9 @@ PSR - It's new $module
 
 # DESCRIPTION
 
-PSR is ...
+PSR is utilities for Perl6 regular expressions.
+
+This module can convert Perl6 regular expressions to Perl5 regular expression.
 
 # LICENSE
 

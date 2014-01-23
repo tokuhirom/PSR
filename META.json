@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Perl6 regular expressions",
    "author" : [
       "Tokuhiro Matsuno <tokuhirom@gmail.com>"
    ],
@@ -48,10 +48,22 @@
       },
       "test" : {
          "requires" : {
+            "JKML" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/PSR/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/PSR",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/PSR.git",
+         "web" : "https://github.com/tokuhirom/PSR"
+      }
+   },
    "version" : "0.01"
 }
