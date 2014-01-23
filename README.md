@@ -4,7 +4,12 @@ PSR - Perl6 regular expressions
 
 # SYNOPSIS
 
-    use PSR;
+    use PSR::Converter::Perl5;
+    use PSR::Parser;
+
+    my $node = PSR::Parser->new()->parse('^a');
+    my $re = PSR::Converter::Perl5->new->convert($node);
+    # $re is qr{\Aa}m
 
 # DESCRIPTION
 
